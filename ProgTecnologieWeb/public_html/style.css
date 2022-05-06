@@ -53,18 +53,39 @@ nav .menu{
   background: #fff;
   color: black;
 }
-.selected{
+#selected{
   background: #fff;
   color: black;
 }
-form{
-    border:#0000CC double 4px;
-    width:300pt;
-    background-color:#CCFF00;
-    padding:5px;
+#container{
+    border: black double 10px;
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    padding: 50px;
+}
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 16px 8px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+input[type="submit"] {
+    width: 75%;
+    padding: 16px 8px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+input[type="submit"]:hover {
+    color: white;
+    background-color: black;
 }
 .img{
-  background: url('img3.jpg')no-repeat;
+  background: url('images/sfondo2.jpg')no-repeat;
   width: 100%;
   height: 100vh;
   background-size: cover;

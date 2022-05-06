@@ -10,30 +10,32 @@
   <nav>
     <div class="menu">
       <div class="logo">
-        <a href="#">StudentB&amp;B</a>
+        <a href="index.html">StudentB&amp;B</a>
       </div>
       <ul>
         <li><a href="#">Home</a></li>
         <li><a href="#">About</a></li>
         <li><a href="#">Services</a></li>
         <li><a href="#">Contact</a></li>
-        <li><a class="selected" href="#">Login</a></li>
+        <li><a id="selected" href="#">Login</a></li>
       </ul>
     </div>
   </nav>
   <div class="img"></div>
-  <div class="center">
-    <form name="login">
-        <label for="username">Inserisci il tuo username</label>
-        <input id="username" type="text" autofocus>
-        <label for="passw">Inserisci la tua password</label>
-        <input id="passw" type="text">
-    </form>
-    <div class="btns">
-      <button>Esci</button>
-      <button>Login</button>
+  <div class="center" id="container">
+      <h2>Inserisci i tuoi dati per entrare nel sito</h2><br>
+        <form name="login" action="login.php" method="post">
+            <p>
+            <input id="username" size="40" type="text" placeholder="Username" autofocus>
+            </p>
+            <p>
+            <input id="passw" size="40" type="password" placeholder="Password">
+            </p>
+            <p>
+            <input type="submit" value="Login">
+            </p>
+        </form>
     </div>
-  </div>
 </body>
 
 </html>
