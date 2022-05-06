@@ -53,6 +53,16 @@ nav .menu{
   background: #fff;
   color: black;
 }
+.selected{
+  background: #fff;
+  color: black;
+}
+form{
+    border:#0000CC double 4px;
+    width:300pt;
+    background-color:#CCFF00;
+    padding:5px;
+}
 .img{
   background: url('img3.jpg')no-repeat;
   width: 100%;
