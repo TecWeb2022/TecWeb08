@@ -7,7 +7,7 @@
    <!--- Basic Page Needs
    ================================================== -->
    <meta charset="utf-8">
-	<title>Login</title>
+	<title>Registrazione</title>
 	<meta name="description" content="">
 	<meta name="author" content="">
 
@@ -50,7 +50,7 @@
                <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
 	            <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
 
-               <ul id="nav">
+               <ul id="nav" class="nav">
 
 	               <li><a href="index.htm">Home</a></li>
 	               <li><span><a href="blog.html">Blog</a></span>
@@ -68,8 +68,8 @@
 	               <li><a href="about.html">About</a></li>
                   <li><a href="contact.html">Contact</a></li>
                   <li><a href="styles.html">Features</a></li>
-                  <li class="current"><a href="login.html">Login</a></li>
-                  <li><a href="registrazione.html">Registrazione</a></li>
+                  <li><a href="login.html">Login</a></li>
+                  <li class="current"><a href="registrazione.html">Registrazione</a></li>
 
                </ul> <!-- end #nav -->
 
@@ -88,24 +88,36 @@
       <div class="row">
           
           <div class="column">
-          <h1>Login</h1>
+          <h1>Registrazione</h1>
 
            <form name="login" action="" method="post">
+               <p>
+                  <input id="nome" size="40" type="text" placeholder="Nome" autofocus>
+                </p>
+                <p>
+                  <input id="cognome" size="40" type="password" placeholder="Cognome">
+                  </p>
                   <p>
-                  <input id="username" size="40" type="text" placeholder="Username" autofocus>
+                  <label for="datanasc">Data di nascita</label>
+                  <input id="datanasc" type="date">
+                  </p>
+                  <p>
+                  <input id="username" size="40" type="text" placeholder="Username">
                   </p>
                   <p>
                   <input id="passw" size="40" type="password" placeholder="Password">
                   </p>
                   <p>
-                  <input type="submit" value="Accedi">
+                  Locatario<input type="radio" id="locatario" name="tipologia" checked>
+                  Locatore<input type="radio" id="locatore" name="tipologia">
                   </p>
+                  <input type="submit" value="Registrati">
             </form>
           </div>
           
           <div class="column">
-              <h1>Non sei registrato?</h1>
-              <button>Registrati ora</button>
+              <h1>Sei già registrato?</h1>
+              <button>Vai al Login</button>
           </div>
 
       </div>

@@ -528,6 +528,7 @@ fieldset { margin-bottom: 24px; }
 input[type="text"],
 input[type="password"],
 input[type="email"],
+input[type="date"],
 textarea,
 select {
    display: block;
@@ -556,6 +557,7 @@ select {
 input[type="text"]:focus,
 input[type="password"]:focus,
 input[type="email"]:focus,
+input[type="date"]:focus,
 textarea:focus {
    color: #B3B7BC;
 	background-color: #3d4145;
