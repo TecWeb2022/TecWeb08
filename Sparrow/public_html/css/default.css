@@ -597,6 +597,7 @@ input[type="checkbox"] { display: inline; }
    max-width: 1020px;
    margin: 0 auto;
 }
+
 /* fixed width for IE8 */
 .ie .row { width: 1000px ; }
 
@@ -619,6 +620,19 @@ input[type="checkbox"] { display: inline; }
    padding: 0 20px;
    min-height: 1px;
    float: left;
+}
+.columns_bianco {
+   position: relative;
+   padding: 0 20px;
+   margin: 5px;
+   background-color: #ffffff;
+   border-radius: 3px;
+   min-height: 1px;
+   max-width: 215px;
+   float: left;
+}
+.columns_bianco h2{
+    margin-top: 10px;
 }
 .column.centered, .columns.centered  {
     float: none;
@@ -800,6 +814,10 @@ properly.
 	margin-left: auto !important;
 	margin-right: auto !important;
 	text-align: center !important;
+}
+.align-center-div {
+    display: flex; 
+    justify-content: center;
 }
 
 

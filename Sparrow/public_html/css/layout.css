@@ -352,7 +352,8 @@ ul#nav ul li a {
 /* c. Intro Section - Main Page
 /* ------------------------------------------------------------------ */
 
-#intro { background: #383232 url(../images/header-bg.jpg); }
+#intro { background: #383232 url(../images/sfondo2.jpg);
+}
 
 /* Flex Slider
 /* ------------------------------------------------------------------ */
@@ -402,7 +403,8 @@ ul#nav ul li a {
    position: relative;
 }
 .slider-text {
-	color: #b4a9a9;
+	/*color: #b4a9a9;*/
+        color: #ffffff;
    width: 90%;
    text-align: center;
    margin: 60px auto 36px auto;
@@ -487,7 +489,8 @@ ul#nav ul li a {
 /* ------------------------------------------------------------------ */
 
 #info {
-   background: #fff url(../images/content-bg.jpg);
+   /*background: #fff url(../images/content-bg.jpg);*/
+   background: #fff url(../images/bg02.png);
    padding-top: 60px;
    padding-bottom: 42px;
 }
@@ -506,7 +509,8 @@ ul#nav ul li a {
 /* ------------------------------------------------------------------ */
 
 #works {
-   background: #f5f5f5 url(../images/works-bg.jpg);
+   /*background: #f5f5f5 url(../images/works-bg.jpg);*/
+   background: #f5f5f5 url(../images/bg02.png);
    padding-top: 48px;
    padding-bottom: 36px;
    border-top: 1px solid #E3E8E8;
@@ -652,7 +656,7 @@ ul#nav ul li a {
    margin-bottom: 6px;
 }
 #journal .entry-header .entry-title { padding-right: 16.66667%; }
-#journal .entry-header h3 { font: 31px/42px raleway-bold, sans-serif; }
+#journal .entry-header h3 { font: 31px/42px raleway-bold, sans-serif; color:#11ABB0;}
 #journal .entry-header .permalink {
    position: absolute;
    top: 18px;
@@ -687,7 +691,7 @@ ul#nav ul li a {
 /* post meta */
 #journal .entry .post-meta   {
    font: 15px/21px notosans-regular, sans-serif;
-   margin-top: 12px;
+   margin-top: 0;
    margin-bottom: 0;
    text-align: right;
 }
@@ -1134,6 +1138,11 @@ footer {
    font-size: 14px;
 }
 
+#social{
+    border-bottom: 1px solid #c4caca;
+    margin: 0;
+   padding: 0 0 24px 0;
+}
 /* footer nav */
 footer .footer-nav {
    font: 18px/36px raleway-bold, sans-serif;
@@ -1163,6 +1172,7 @@ footer .footer-social li {
    padding: 0;
    margin-left: 24px;
    margin-right: 24px;
+   margin-top: 24px;
 }
 footer .footer-social li a { color: #7B858E; }
 footer .footer-social li a:hover { color: #313131; }
@@ -1224,3 +1234,23 @@ footer .copyright  li:first-child:before {
    color: transparent;
 }
 #go-top a:hover { background-color: #0F9095; }
+
+/* ------------------------------------------------------------------ */
+/* g. mission (fatta da noi)
+/* ------------------------------------------------------------------ */
+
+#mission {
+   /*background: #fff url(../images/content-bg.jpg);*/
+   background: #fff ;
+   padding-top: 60px;
+   padding-bottom: 42px;
+}
+#mission h2 {
+  font: 18px/30px notosans-bold, sans-serif;
+  color: #11ABB0;
+  margin-bottom: 6px;
+}
+#mission p {
+  font-size: 15px;
+  line-height: 30px
+}
