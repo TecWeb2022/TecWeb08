@@ -7,7 +7,7 @@
    <!--- Basic Page Needs
    ================================================== -->
    <meta charset="utf-8">
-	<title>Login</title>
+	<title>Registrazione</title>
 	<meta name="description" content="">
 	<meta name="author" content="">
 
@@ -22,12 +22,12 @@
    <link rel="stylesheet" href="css/media-queries.css">
 
    <!-- Script
-   ================================================== -->
-	<!--script src="js/modernizr.js"></script-->
+   ================================================== 
+	<script src="js/modernizr.js"></script>-->
 
    <!-- Favicons
 	================================================== -->
-	<link rel="shortcut icon" href="favicon.ico" > 
+	<link rel="shortcut icon" href="favicon.ico" >
 
 </head>
 
@@ -42,7 +42,7 @@
          <div class="twelve columns">
 
             <div class="logo">
-               <a href="index.html"><img alt="" src="images/logo.png"></a>
+               <a href="#"><img alt="" src="images/logo.png"></a>
             </div>
 
             <nav id="nav-wrap">
@@ -52,7 +52,7 @@
 
                <ul id="nav">
 
-	               <li><a href="index.htm">Home</a></li>
+	               <li><a href="index.html">Home</a></li>
 	               <li><span><a href="blog.html">Blog</a></span>
                      <ul>
                         <li><a href="blog.html">Blog Index</a></li>
@@ -68,8 +68,8 @@
 	               <li><a href="about.html">About</a></li>
                   <li><a href="contact.html">Contact</a></li>
                   <li><a href="styles.html">Features</a></li>
-                  <li class="current"><a href="login.html">Login</a></li>
-                  <li><a href="registrazione.html">Registrazione</a></li>
+                  <li><a href="login.html">Login</a></li>
+                  <li class="current"><a href="#">Registrazione</a></li>
 
                </ul> <!-- end #nav -->
 
@@ -81,16 +81,49 @@
 
    </header> <!-- Header End -->
 
-   <!-- Works Section
+   <!-- Page Title
    ================================================== -->
-   <section id="works">
+   <div id="page-title">
 
       <div class="row">
-          
-          <div class="column">
-          <h1>Login</h1>
 
-           <form name="login" action="" method="post">
+         <div class="ten columns centered text-center">
+            <h1>Form di registrazione<span>.</span></h1>
+
+            <p>Inserisci i tuoi dati per registrarti nel sito</p>
+         </div>
+
+      </div>
+
+   </div> <!-- Page Title End-->
+
+   <!-- Content
+   ================================================== -->
+   <div class="content-outer">
+
+      <div id="page-content" class="row portfolio">
+
+         <section class="entry cf">
+
+            <div id="secondary"  class="four columns entry-details">
+
+                  <h1>Registrazione</h1>
+
+                  <div id="entry-description">
+
+                     <p>Benvenuto su StudentB&amp;B!</p>
+                     Se sei uno studente in cerca di alloggio, registrati come "Locatario";<br>
+                     se, invece, hai un alloggio da affittare, allora registrati come "Locatore".
+
+                  </div>
+
+            </div> <!-- secondary End-->
+
+            <div id="primary" class="eight columns">
+
+               <div class="entry-media">
+
+                  <form name="login" action="" method="post">
                   <p>
                   <input id="username" size="40" type="text" placeholder="Username" autofocus>
                   </p>
@@ -102,15 +135,66 @@
                   </p>
             </form>
           </div>
-          
-          <div class="column">
-              <h1>Non sei registrato?</h1>
-              <button>Registrati ora</button>
-          </div>
+
+               </div>
+
+               <div class="entry-excerpt">
+
+				      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor,
+                  nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate
+                  cursus a sit amet mauris. Morbi accumsan ipsum velit. </p>
+
+					</div>
+
+            </div> <!-- primary end-->
+
+         </section> <!-- end section -->
+
+         <ul class="post-nav cf">
+			   <li class="prev"><a href="#" rel="prev"><strong>Previous Entry</strong> Duis Sed Odio Sit Amet Nibh Vulputate</a></li>
+				<li class="next"><a href="#" rel="next"><strong>Next Entry</strong> Morbi Elit Consequat Ipsum</a></li>
+			</ul>
 
       </div>
 
-   </section> <!-- Works Section End-->
+   </div> <!-- content End-->
+
+   <!-- Tweets Section
+   ================================================== -->
+   <section id="tweets">
+
+      <div class="row">
+
+         <div class="tweeter-icon align-center">
+            <i class="fa fa-twitter"></i>
+         </div>
+
+         <ul id="twitter" class="align-center">
+            <li>
+               <span>
+               This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
+               Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum
+               <a href="#">http://t.co/CGIrdxIlI3</a>
+               </span>
+               <b><a href="#">2 Days Ago</a></b>
+            </li>
+            <!--
+            <li>
+               <span>
+               This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
+               Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum
+               <a href="#">http://t.co/CGIrdxIlI3</a>
+               </span>
+               <b><a href="#">3 Days Ago</a></b>
+            </li>
+            -->
+         </ul>
+
+         <p class="align-center"><a href="#" class="button">Follow us</a></p>
+
+      </div>
+
+   </section> <!-- Tweet Section End-->
 
    <!-- footer
    ================================================== -->
