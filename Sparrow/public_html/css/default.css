@@ -570,7 +570,7 @@ legend {
    font: 16px/24px notosans-bold, sans-serif;
 	margin: 12px 0;
    color: #3d4145;
-   display: inline;
+   display: block;
 }
 label span,
 legend span {
