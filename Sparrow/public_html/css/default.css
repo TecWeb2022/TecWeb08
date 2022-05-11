@@ -459,7 +459,7 @@ button,
 input[type="submit"],
 input[type="reset"],
 input[type="button"] {
-   font: 16px/30px notosans-bold, sans-serif;
+   font: 14px/30px notosans-bold, sans-serif;   /* il font iniziale era 16px */
    background: #11ABB0;
    display: inline-block;
 	text-decoration: none;
@@ -482,6 +482,18 @@ input[type="button"] {
    -khtml-border-radius: 3px;
    border-radius: 3px;
 }
+
+/* aggiunta da Matteo*/
+.center {
+  margin: 0;
+  position: absolute;
+  top: 72%;
+  left: 80%;
+  -ms-transform: translate(-60%, -40%);
+  transform: translate(-60%, -40%);
+}
+/*___________________________________________________*/
+
 
 .button:hover,
 button:hover,
@@ -623,6 +635,7 @@ input[type="checkbox"] { display: inline; }
    min-height: 1px;
    float: left;
 }
+
 .columns_bianco {
    position: relative;
    padding: 0 20px;

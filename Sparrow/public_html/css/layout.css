@@ -57,8 +57,17 @@ img { border-radius: 3px; }
    padding-top: 54px;
    padding-bottom: 54px;
    margin: 0 auto;
-   width: 91.66667%;
+   width: 100%;
 }
+
+/* fatto da Matteo, eliminare, serve a centrare il catalogo */
+#page-content2 {
+   padding-top: 54px;
+   padding-bottom: 54px;
+   margin: 0 25%;
+   width: 100%;
+}
+
 /* page */
 .page section {
    padding-top: 24px;
@@ -895,6 +904,15 @@ ol.commentlist {
 	padding: 0;
    margin-left: 16.66667%;
 }
+
+/* fatto da Matteo (eliminare)) */
+ol.commentlist98 {
+   border-top: 1px dotted #E1E5E3;
+	margin: 29px 0 54px 0;
+	padding: 0;
+   margin-left: 50%;
+}
+
 .commentlist > li {
    position: relative;
 	list-style: none;
@@ -909,6 +927,22 @@ ol.commentlist {
 
    height: 50px;
    width: 50px;
+}
+
+/* fatta da Matteo (da eliminare))*/ 
+.imgn_casa{
+   position: absolute;
+   left: -50px;
+   display: initial;
+
+   height: 200px;
+   width: 200px;
+}
+
+/* fatta da Matteo (da eliminare))*/ 
+.icona_posizione {
+   height: 15px;
+   width: 15px; 
 }
 .commentlist li .avatar img {
    margin-top: 6px;
@@ -926,6 +960,12 @@ ol.commentlist {
    line-height: 24px;
    display: block;
 }
+
+/* inserito da Matteo (serve per spostare la parte del nome e del orario inserimento dx)*/
+.comment-info{
+    margin: 0 0 0 110px;
+}
+
 .commentlist li .comment-info .comment-meta .reply {
    font-family: notosans-bold, sans-serif;
 }
@@ -935,11 +975,17 @@ ol.commentlist {
 }
 .commentlist li .comment-text {
 	clear: both;
-	margin: 24px 0 0 0;
+	margin: 20px 0 0 0;
    padding: 0;
    line-height: 24px;
 }
 
+.dettagli_cat {
+	clear: both;
+	margin: 2px 0 0 110px;
+   padding: 0;
+   line-height: 24px;
+   
 /* children */
 .commentlist li ul.children {
    margin: 0;
