@@ -4,6 +4,8 @@
         <meta charset="utf-8">
         <link rel="stylesheet" type="text/css" href="{{ asset('css/layout.css') }}" >
         <link rel="stylesheet" type="text/css" href="{{ asset('css/default.css') }}" >
+        <link rel="stylesheet" type="text/css" href="{{ asset('css/fonts.css') }}" >
+        <link rel="stylesheet" type="text/css" href="{{ asset('css/media-queries.css') }}" >
         <title>Studentb&amp;b | @yield('title', 'Home')</title>
     </head>
     <body>
@@ -34,7 +36,7 @@
             <!-- end #content -->
             <footer>
                 @include('footer/_footer')
-            </footer>
+            </footer> 
             <!-- end #footer -->
         </div>
     </body>
