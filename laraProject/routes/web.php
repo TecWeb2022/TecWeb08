@@ -17,3 +17,9 @@ Route::get('/', function () {
 
 Route::view('/home', 'home')
         ->name('home');
+
+Route::view('/profilo', 'profilo')
+        ->name('profilo');
+
+Route::view('/modifica', 'modifica')
+        ->name('modifica');

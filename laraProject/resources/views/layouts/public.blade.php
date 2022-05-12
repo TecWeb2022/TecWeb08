@@ -22,7 +22,7 @@
                          <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
                          <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
                         @include('navs/_navpublic')
-                      </nav> 
+                      </nav>
                        <!-- end #nav-wrap -->
                    </div>
                 </div>
