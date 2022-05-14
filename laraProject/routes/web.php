@@ -23,3 +23,6 @@ Route::view('/profilo', 'profilo')
 
 Route::view('/modifica', 'modifica')
         ->name('modifica');
+
+Route::get('/faqs', 'FaqController@prova')
+->name('faq');
