@@ -8,16 +8,16 @@ use App\Models\Faq;
 
 class FaqController extends Controller
 {
-    protected $_faqModel;
-    public $faq1;
+
+    protected $faqModel;
     
     public function __construct() {
-        $this->_faqModel = new Faq;
-        $this->faq1=Faq::where('id', 1)->get();
+        $this->faqModel = new Faq;
     }
     
     public function prova() {
+        $faq1 = $this->faqModel->where('id', 1)->first();
         return view('provafaq')
-            ->with('faq1', $this->faq1);
+            ->with('faq1', $faq1);
     }
 }
