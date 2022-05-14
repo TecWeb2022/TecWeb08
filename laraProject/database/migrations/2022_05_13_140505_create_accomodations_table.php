@@ -17,7 +17,7 @@ class CreateAccomodationsTable extends Migration
             $table->bigIncrements('id');
             $table->string('nome');
             $table->string('descr');
-            $table->string('tipologia', 4);
+            $table->string('tipologia', 2);
             $table->string('citta');
             $table->string('prov');
             $table->string('via');
@@ -25,21 +25,20 @@ class CreateAccomodationsTable extends Migration
             $table->bigInteger('sup');
             $table->date('inizio_disp');
             $table->date('fine_disp');
-            $table->timestamp('data_ins');
+            $table->dateTime('data_ins');
             $table->smallInteger('eta_min');
             $table->smallInteger('eta_max');
-            $table->string('sesso', 2);
+            $table->string('sesso', 1);
             $table->double('canone');
-            $table->tinyIntegerInteger('posti_letto');
-            $table->boolean('cucina');
+            $table->tinyInteger('posti_letto');
+            $table->boolean('cucina')->default(false);
             $table->smallInteger('num_bagni');
             $table->smallInteger('num_camere');
-            $table->boolean('locale_ricreativo');
-            $table->boolean('angolo_studio');
-            $table->boolean('locale_ricreativo');
+            $table->boolean('locale_ricreativo')->default(false);
+            $table->boolean('angolo_studio')->default(false);
             
-            $table->string('proprietario')->index();
-            $table->foreign('proprietario')->references('username')->on('users');
+            $table->string('proprietario');//->index();
+            //$table->foreign('proprietario')->references('username')->on('users');
         });
     }
 

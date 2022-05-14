@@ -15,9 +15,8 @@ class CreatePhotosTable extends Migration
     {
         Schema::create('photos', function (Blueprint $table) {
             $table->string('path')->primary();
-            $table->bigInteger('id_alloggio')->unsigned()->index();
-            $table->foreign('id_alloggio')->references('id')->on('accomodations');
-            $table->timestamps();
+            $table->bigInteger('id_alloggio')->unsigned();//->index();
+            //$table->foreign('id_alloggio')->references('id')->on('accomodations');
         });
     }
 

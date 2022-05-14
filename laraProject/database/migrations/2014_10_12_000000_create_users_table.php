@@ -18,7 +18,6 @@ class CreateUsersTable extends Migration
             $table->string('nome');
             $table->string('cognome');
             $table->date('data_nasc');
-            $table->timestamp('username_verified_at')->nullable();
             $table->string('password');
             $table->string('tipologia');
             $table->rememberToken();
