@@ -42,84 +42,34 @@
       </div>
 
       <div class="blog-entries">
-          @isset($faq1)
+         @isset($faq1)
+         
          <!-- Entry -->
          <article class="row entry">
-
+            @foreach($faq1 as $faq)
             <div class="entry-header">
-
+               
                <div class="ten columns entry-title pull-right">
-                  <h3>PRIMA DOMANDA: {{ $faq1->domanda }}</h3>
+                  <h3>DOMANDA {{ $faq->id }}: {{ $faq->domanda }}</h3>
                </div>
 
                <div class="two columns post-meta end">
                   
-                  <h3>#{{ $faq1->id }}</h3>
+                  <h3>#{{ $faq->id }}</h3>
                   
                </div>
 
             </div>
 
             <div class="ten columns offset-2 post-content">
-                <p>RISPOSTA NUMERO 1: {{ $faq1->risposta }}
+                <p>RISPOSTA NUMERO {{ $faq->id }}: {{ $faq->risposta }}
                </p>
             </div>
-      
-         </article> <!-- Entry End -->
+         @endforeach
          
-          <!-- Entry -->
-         <article class="row entry">
-
-            <div class="entry-header">
-
-               <div class="ten columns entry-title pull-right">
-                  <h3>SECONDA DOMANDA DELLE FAQ</h3>
-               </div>
-
-               <div class="two columns post-meta end">
-                  
-                  <h3>#2</h3>
-                  
-               </div>
-
-            </div>
-
-            <div class="ten columns offset-2 post-content">
-                <p>RISPOSTA NUMERO 2!!!<br>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum
-               deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate.
-               At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium.
-               </p>
-            </div>
-
-         </article> <!-- Entry End -->
-         
-           <!-- Entry -->
-         <article class="row entry">
-
-            <div class="entry-header">
-
-               <div class="ten columns entry-title pull-right">
-                  <h3>TERZA DOMANDA DELLE FAQ</h3>
-               </div>
-
-               <div class="two columns post-meta end">
-                  
-                  <h3>#3</h3>
-                  
-               </div>
-
-            </div>
-
-            <div class="ten columns offset-2 post-content">
-                <p>RISPOSTA NUMERO 3!!!<br>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum
-               deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate.
-               At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium.
-               </p>
-            </div>
-
-         </article> <!-- Entry End -->
-         @endisset()
+         </article>
       </div>
          </section>
+   @endisset()
 
 @endsection

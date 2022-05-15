@@ -38,7 +38,7 @@ class CreateAccomodationsTable extends Migration
             $table->boolean('angolo_studio')->default(false);
             
             $table->string('proprietario');//->index();
-            //$table->foreign('proprietario')->references('username')->on('users');
+            //$table->foreign('proprietario')->references('id')->on('users');
         });
     }
 

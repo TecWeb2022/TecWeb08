@@ -20,4 +20,10 @@ class FaqController extends Controller
         return view('provafaq')
             ->with('faq1', $faq1);
     }
+    
+    public function getAll() {
+        $all = $this->faqModel->get();
+        return view('provafaq')
+            ->with('faq1', $all);
+    }
 }

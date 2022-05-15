@@ -16,7 +16,7 @@ class User extends Authenticatable
      * @var array
      */
     protected $fillable = [
-        'name', 'email', 'password',
+        'nome', 'cognome', 'data_nasc', 'tipologia', 'username', 'password',
     ];
 
     /**
@@ -34,6 +34,10 @@ class User extends Authenticatable
      * @var array
      */
     protected $casts = [
-        'email_verified_at' => 'datetime',
     ];
+    
+    public function hasRole($role) {
+        $role = (array)$role;
+        return in_array($this->role, $role);
+    }
 }

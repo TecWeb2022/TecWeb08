@@ -13,7 +13,8 @@ class DatabaseSeeder extends Seeder
     {
        DB::table('faqs')->insert([
        ['id'=>1,'domanda'=> "Domanda1?", 'risposta'=>"Risposta1"],
-       ['id'=>2,'domanda'=> "Domanda2?", 'risposta'=>"Risposta2"]
+       ['id'=>2,'domanda'=> "Domanda2?", 'risposta'=>"Risposta2"],
+       ['id'=>3,'domanda'=> "Domanda lunghissimissimissimissimissimissima per provare così a caso", 'risposta'=>"RISPOSTAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"]
        ]);    // $this->call(UsersTableSeeder::class);
     }
 }

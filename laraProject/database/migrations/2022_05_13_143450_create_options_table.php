@@ -22,8 +22,8 @@ class CreateOptionsTable extends Migration
             $table->dateTime('data_stipula')->nullable();
             $table->bigInteger('id_alloggio')->unsigned();//->index();
             //$table->foreign('id_alloggio')->references('id')->on('accomodations');
-            $table->string('user_locatario');//->index();
-            //$table->foreign('user_locatario')->references('username')->on('users');
+            $table->string('id_locatario');//->index();
+            //$table->foreign('id_locatario')->references('id')->on('users');
         });
     }
 
