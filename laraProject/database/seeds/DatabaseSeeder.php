@@ -20,10 +20,10 @@ class DatabaseSeeder extends Seeder
        
        DB::table('accomodations')->insert([
            ['id'=>1,'nome'=>'Appartamento carino sul Lago di Garda','descr'=> 'Appartamento accogliente e gradevole. Situato nei pressi del lago, raggiungibile in 3 minuti di macchina. Presenta un giardino ampio e gli interni sono ben arredati con forniture dallo stile del 19 secolo ',
-               'tipologia'=>'App','citta'=>'Brescia','prov'=>'BS','via'=>'Via T.Tasso','num_civ'=>80,'sup'=>100,'inizio_disp'=>'2022-05-16','fine_disp'=>'2022-07-19','data_ins'=>'2022-05-15','eta_min'=>18,'eta_max'=>70,'sesso'=>'M','canone'=>156.00,'posti_letto'=>6,'cucina'=>'true','num_bagni'=>3,'num_camere'=>4,'locale_ricreativo'=>'','angolo_studio'=>'',
+               'tipologia'=>'App','citta'=>'Brescia','prov'=>'BS','via'=>'Via T.Tasso','num_civ'=>80,'sup'=>100,'inizio_disp'=>'2022-05-16','fine_disp'=>'2022-07-19','data_ins'=>'2022-05-15','eta_min'=>18,'eta_max'=>70,'sesso'=>'M','canone'=>156.00,'posti_letto'=>6,'cucina'=>'true','num_bagni'=>3,'num_camere'=>4,'locale_ricreativo'=>'false','angolo_studio'=>'false',
                'proprietario' => 'Giancarlo Magalli'],
            ['id'=>2,'nome'=>'Posto letto su casa di mare','descr'=> 'Camera per studenti. Situata nei pressi di Ancona est, vicinissima al mare. Vicino a punti di snodo per raggiungere le universtià di tutta la città.',
-               'tipologia'=>'Pls','citta'=>'Ancona','prov'=>'AN','via'=>'Via San Tommaso','num_civ'=>2,'sup'=>23,'inizio_disp'=>'2022-10-12','fine_disp'=>'2022-10-19','data_ins'=>'2022-05-15','eta_min'=>18,'eta_max'=>27,'sesso'=>"F",'canone'=>15.00,'posti_letto'=>1,'cucina'=>'false','num_bagni'=>1,'num_camere'=>1,'locale_ricreativo'=>'','angolo_studio'=>'',
+               'tipologia'=>'Pls','citta'=>'Ancona','prov'=>'AN','via'=>'Via San Tommaso','num_civ'=>2,'sup'=>23,'inizio_disp'=>'2022-10-12','fine_disp'=>'2022-10-19','data_ins'=>'2022-05-15','eta_min'=>18,'eta_max'=>27,'sesso'=>"F",'canone'=>15.00,'posti_letto'=>1,'cucina'=>'false','num_bagni'=>1,'num_camere'=>1,'locale_ricreativo'=>'false','angolo_studio'=>'false',
                'proprietario' => 'Cristian Jason Marini'],
        ]);
                
