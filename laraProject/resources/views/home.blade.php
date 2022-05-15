@@ -3,6 +3,12 @@
 @section('title', 'Home')
 
 @section('content')
+
+<script type="text/javascript">
+    document.getElementsByClassName("noCurrent")[0].className = "current";
+</script>
+
+
 <!-- Intro Section
    ================================================== -->
    <section id="intro">
