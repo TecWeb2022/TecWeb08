@@ -19,15 +19,15 @@
 		  <div class="row">
 			 <div class="twelve columns">
 				 <div class="slider-text">
-					  <h1>Free amazing site template<span>.</span></h1>
-                                             <p>Aenean condimentum, lacus sit amet luctus lobortis, dolores et quas molestias excepturi
-                                                enim tellus ultrices elit, amet consequat enim elit noneas sit amet luctu. lacus sit amet luctus lobortis, dolores et quas molestias excepturi
-                                                enim tellus ultrices elit.
+					  <h1><span>Alloggi per tutte le esigenze.</span></h1>
+                                             <p>Le esigenze di ogni studente sono alla base del nostro progetto, a partire
+                                                dal quale è nata la piattaforma web per la ricerca e la prenotazione di alloggi 
+                                                per il mondo studentesco, StudentB&B.
                                              </p>
 				 </div>
                                  <div style="height: 200px; text-align: center;">
                                      
-                                     <a href="#" class="button" style="margin-top: 5%" >Inizia a cercare!!!</a>
+                                     <a href="#" class="button" style="margin-top: 5%" >Vai al Login</a>
                                      
                                  </div>
 			  </div>
@@ -42,21 +42,20 @@
        
        <div class="row">
          <div class="twelve columns align-center">
-            <h2>MISSIONE</h2>
+            <h2>OBIETTIVO</h2>
          </div>
       </div>
        
        <div class="row">
          <div class="twelve columns align-center">
             <p>
-           Aenean condimentum, lacus sit amet luctus lobortis, dolores et quas molestias excepturi
-           enim tellus ultrices elit, amet consequat enim elit noneas sit amet luctu. 
-           lacus sit amet luctus lobortis, dolores et quas molestias excepturi enim tellus ultrices elit. 
-           At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate. 
-           At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium. RISPOSTA NUMERO 1!!!
-At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate. 
-At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium. RISPOSTA NUMERO 1!!!
-At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium.
+           La nostra azienda 'Airdrop', nasce con lo scopo di agevolare la vita degli studenti, 
+           in particolare l'obiettivo principale corrisponde a rendere fruibile un'ampia gamma di offerte
+           per trovare una sistemazione nella città scelta da ogni ragazzo per il proprio percorso di studi.
+           Questo viene reso possibile dalla rete informatica che si viene ad instaurare grazie alla piattaforma StudentB&B, 
+           la quale riesce ad intersecare la necessità di alcuni locatori che intendono comunicare la disponibilità
+           di affitto delle loro proprietà a prezzi contenuti e la necessità degli studenti di trovare un alloggio
+           economico situato in posizioni strategiche per lo spostamento verso la sede degli studi.
        </p>
          </div>
       </div>
@@ -72,34 +71,37 @@ At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praese
          <div class="bgrid-quarters s-bgrid-halves">
 
            <div class="columns_bianco">
-              <h2>Clean & Modern.</h2>
+              <h2>Vedi nel dettaglio ogni alloggio</h2>
 
-              <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
-              Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+              <p>Una volta che hai scelto l'alloggio più compatibile con le tue esigenze è possibile inviare una
+                  richiesta di prenotazione per il periodo disponibile, in attesa della conferma della prenotazione
+                  da parte del suo locatore.
               </p>
            </div>
 
            <div class="columns_bianco">
-              <h2>Responsive.</h2>
+              <h2>Invia richieste di prenotazione</h2>
 
-              <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
-              Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+              <p>Una volta che hai scelto l'alloggio più compatibile con le tue esigenze è possibile inviare una
+                  richiesta di prenotazione per il periodo disponibile, in attesa della conferma della prenotazione
+                  da parte del suo locatore.
               </p>
            </div>
 
            <div class="columns_bianco s-first">
-              <h2>HTML5 + CSS3.</h2>
+              <h2>Inserisci e monitora i tuoi alloggi</h2>
 
-              <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
-              Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+              <p>Se intendi registrarti come locatore, hai la possibilità di inserire, visualizzare e
+                 modificare annunci per i tuoi alloggi, oltre a valutare le richieste ricevute per essi.
               </p>
            </div>
 
            <div class="columns_bianco">
-              <h2>Free of Charge.</h2>
+              <h2>Scambia messaggi con gli utenti</h2>
 
-              <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
-              Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+              <p>Il sito web offre la possibilità di utilizzare la chat interna una volta effettuato il login,
+                  attraverso la quale puoi contattare gli utenti con cui ti interessa chiarire dettagli su annunci
+                  o richieste di prenotazione.
               </p>
            </div>
 
