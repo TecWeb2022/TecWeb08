@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 
 use App\Models\Faq;
 
-class FaqController extends Controller
+class PublicController extends Controller
 {
 
     protected $faqModel;
@@ -15,15 +15,17 @@ class FaqController extends Controller
         $this->faqModel = new Faq;
     }
     
+    /*
     public function prova() {
         $faq1 = $this->faqModel->where('id', 1)->first();
         return view('provafaq')
             ->with('faq1', $faq1);
     }
+    */
     
-    public function getAll() {
-        $all = $this->faqModel->get();
-        return view('provafaq')
-            ->with('faq1', $all);
+    public function getFaqs() {
+        $faqs = $this->faqModel->get();
+        return view('home')
+            ->with('faqs', $faqs);
     }
 }
