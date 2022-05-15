@@ -11,11 +11,7 @@
 |
 */
 
-Route::get('/', function () {
-    return view('home');
-});
-
-Route::view('/home', 'home')
+Route::get('/', 'PublicController@getFaqs')
         ->name('home');
 
 Route::view('/profilo', 'profilo')
@@ -23,6 +19,3 @@ Route::view('/profilo', 'profilo')
 
 Route::view('/modifica', 'modifica')
         ->name('modifica');
-
-Route::get('/faqs', 'FaqController@getAll')
-->name('faq');
